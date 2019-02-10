@@ -1,5 +1,5 @@
 # fixer-to-qraphql
-A simple server, to consume the fixer.io API and to expose it via GraphQL. It also supports caching.
+A simple server, that consumes the fixer.io API and exposes it via GraphQL. It also supports caching.
 
 ## Setup
 - run `npm i`
