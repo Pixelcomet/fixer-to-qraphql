@@ -16,3 +16,17 @@ This starts a development-server, that restarts when you change a file.
 - run `npm run forever`
 
 This starts the server in a new process and keeps it running.
+
+## Sample request
+```
+{
+  convert(query: {
+    from: "USD"
+    to: "EUR"
+    amount: 99.99,
+    accuracy: 2, # optional
+    decimalSeperator: "." # optional
+    seperator: "," # optional
+  })
+}
+```
