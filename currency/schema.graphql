@@ -1,0 +1,12 @@
+input conversionQueryInput {
+    from: String!
+    to: String!
+    amount: Float!,
+    accuracy: Int,
+    decimalSeperator: String
+    seperator: String
+}
+
+type Query {
+    convert(query: conversionQueryInput!): String
+}
